@@ -1,5 +1,6 @@
-import {MainHeaderContainer, HeaderText} from './login.styles';
-const Login = () => {
+import {MainHeaderContainer, HeaderText} from './about.styles';
+
+const About = () => {
     return (
         <MainHeaderContainer>
             <HeaderText>coming soon!</HeaderText>
@@ -7,4 +8,4 @@ const Login = () => {
     )
 }
 
-export default Login;
+export default About;

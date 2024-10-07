@@ -24,9 +24,6 @@ const NavigationBarComponent = () => {
     }
   }, []);
 
-  useEffect(() => {
-    console.log(phoneNavigationIsOpened);
-  }, [phoneNavigationIsOpened]);
   return (
     <>
       {isDeviceTypeIsPhone ? (
